@@ -1,0 +1,51 @@
+name: cube_magique
+description: "Cube Magique : apprendre à résoudre le Rubik's Cube, pour les enfants de 7 à 12 ans."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.14.0
+
+dependencies:
+  audioplayers: ^6.8.1
+  camera: ^0.12.2
+  # Empreinte du code d'accès de la version web (paquet officiel Dart).
+  crypto: ^3.0.6
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.5.0
+  flutter_tts: ^4.2.5
+  intl: ^0.20.3
+  material_ui: ^1.1.0
+  path_provider: ^2.1.6
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  # Version web : « Web Worker » du solveur rapide (paquet officiel Dart).
+  web: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # Génère lib/l10n/app_localizations.dart à partir des fichiers .arb
+  generate: true
+  # Sons courts embarqués (fabriqués par le projet, libres de droits).
+  assets:
+    - assets/sounds/
+    - assets/voice/
+  # Police Nunito embarquée (licence OFL) : aucun téléchargement à l'exécution.
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Regular.ttf
+        - asset: assets/fonts/Nunito-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Nunito-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Nunito-Black.ttf
+          weight: 900

@@ -1,0 +1,631 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Cubito",
+  "accessTitle": "Code d'accès",
+  "accessHelp": "Demande le code à un adulte.",
+  "accessLabel": "Le code",
+  "accessEnter": "Entrer",
+  "accessWrong": "Ce n'est pas le bon code. Réessaie !",
+  "homeGreeting": "Salut, moi c'est Cubito !",
+  "homeSubtitle": "On résout ton cube ensemble ?",
+  "tileLearn": "Apprendre",
+  "tileSolve": "Résoudre mon cube",
+  "tilePractice": "S'entraîner",
+  "tileTrophies": "Mes trophées",
+  "settings": "Réglages",
+  "back": "Retour",
+  "comingSoonTitle": "Bientôt ici !",
+  "comingSoonLearn": "Ici, tu apprendras le cube en 8 étapes.",
+  "comingSoonSolve": "Ici, je t'aiderai à résoudre TON cube.",
+  "comingSoonPractice": "Ici, tu pourras t'entraîner librement.",
+  "comingSoonTrophies": "Ici, tu verras tous tes trophées.",
+  "comingSoonSettings": "Ici, tu pourras régler la voix et les sons.",
+  "mascotLabel": "Cubito, le cube qui sourit",
+  "moveR": "Monte la colonne de droite",
+  "moveRp": "Descends la colonne de droite",
+  "moveR2": "Monte 2 fois la colonne de droite",
+  "moveL": "Descends la colonne de gauche",
+  "moveLp": "Monte la colonne de gauche",
+  "moveL2": "Descends 2 fois la colonne de gauche",
+  "moveU": "Tourne la ligne du haut vers la gauche",
+  "moveUp": "Tourne la ligne du haut vers la droite",
+  "moveU2": "Tourne 2 fois la ligne du haut",
+  "moveD": "Tourne la ligne du bas vers la droite",
+  "moveDp": "Tourne la ligne du bas vers la gauche",
+  "moveD2": "Tourne 2 fois la ligne du bas",
+  "moveF": "Tourne la face avant comme une horloge",
+  "moveFp": "Tourne la face avant vers la gauche",
+  "moveF2": "Tourne 2 fois la face avant",
+  "moveB": "Tourne la face de derrière",
+  "moveY": "Tourne tout le cube vers la gauche",
+  "moveYp": "Tourne tout le cube vers la droite",
+  "moveY2": "Fais faire un demi-tour au cube",
+  "moveX2": "Retourne le cube : le haut va en bas",
+  "moveOther": "Tourne tout le cube",
+  "practiceHelp": "Glisse ton doigt sur une ligne ou une colonne.",
+  "practiceHelpOrbit": "Glisse à côté du cube pour le faire tourner.",
+  "scramble": "Mélanger",
+  "undo": "Annuler",
+  "restart": "Recommencer",
+  "solvedBravo": "Bravo, tu as résolu le cube !",
+  "cubeLabel": "Le cube en 3D",
+  "island1Title": "La marguerite 🌼",
+  "island1Goal": "Fais une croix blanche.",
+  "island1Rule1": "Jaune en haut : 4 pétales blancs autour.",
+  "island1Rule2": "Pose chaque pétale sur sa couleur.",
+  "island1Rule3": "Puis tourne 2 fois la face avant.",
+  "island1Rule4": "Retourne le cube : croix blanche en haut !",
+  "island2Title": "La croix bien rangée",
+  "island2Goal": "Chaque arête blanche sur sa couleur.",
+  "island2Rule1": "Tourne le haut : au moins 2 arêtes alignées.",
+  "island2Rule2": "Mets une arête pas alignée devant toi.",
+  "island2Rule3": "Celle de droite doit être alignée.",
+  "island2Rule4": "Fais l'escargot, puis recommence.",
+  "island3Title": "Les coins blancs",
+  "island3Goal": "Termine toute la face blanche !",
+  "island3Rule1": "Mets le coin blanc en bas, sous sa place.",
+  "island3Rule2": "Blanc à droite : 1 petite danse.",
+  "island3Rule3": "Blanc dessous : 3 petites danses.",
+  "island3Rule4": "Blanc devant : 5 petites danses.",
+  "island4Title": "On retourne le cube",
+  "island4Goal": "Le blanc va en bas.",
+  "island4Rule1": "Fais rouler le cube vers toi, deux fois.",
+  "island4Rule2": "Le jaune est en haut maintenant.",
+  "island5Title": "La 2e couronne",
+  "island5Goal": "Range les arêtes du milieu.",
+  "island5Rule1": "Cherche une arête du haut sans jaune.",
+  "island5Rule2": "Tourne le haut pour faire un T à l'envers.",
+  "island5Rule3": "Le dessus va à droite : toboggan droit.",
+  "island5Rule4": "Le dessus va à gauche : toboggan gauche.",
+  "island6Title": "L'étoile jaune ⭐",
+  "island6Goal": "Fais une croix jaune.",
+  "island6Rule1": "Petit L en haut à gauche : 1 fois.",
+  "island6Rule2": "Ligne de l'avant vers l'arrière : 2 fois.",
+  "island6Rule3": "Juste le point jaune : 3 fois.",
+  "island7Title": "Les arêtes jaunes",
+  "island7Goal": "Chaque arête jaune sur sa couleur.",
+  "island7Rule1": "Tourne le haut : au moins 2 arêtes alignées.",
+  "island7Rule2": "Mets une arête pas alignée devant toi.",
+  "island7Rule3": "Celle de droite doit être alignée.",
+  "island7Rule4": "Fais l'escargot, comme pour la croix blanche.",
+  "island8Title": "Les coins jaunes 🎉",
+  "island8Goal": "Termine le cube !",
+  "island8Rule1": "Un coin bien placé en haut à droite.",
+  "island8Rule2": "Fais le manège, 1 ou 2 fois.",
+  "island8Rule3": "Puis petite danse jusqu'au jaune en haut.",
+  "island8Rule4": "Entre deux coins, tourne seulement le haut.",
+  "island8Rule5": "Le cube a l'air cassé : c'est normal !",
+  "algoPetiteDanse": "La petite danse",
+  "algoEscargot": "L'escargot",
+  "algoTobogganDroit": "Le toboggan droit",
+  "algoTobogganGauche": "Le toboggan gauche",
+  "algoEtoileJaune": "L'étoile jaune",
+  "algoManege": "Le manège des coins",
+  "hintRetournerJauneEnHaut": "Retourne le cube : le jaune en haut.",
+  "hintPetale": "Fais monter une arête blanche près du jaune.",
+  "hintPetaleAuDessusDeSaCouleur": "Tourne le haut : un pétale sur sa couleur.",
+  "hintPetaleDevant": "Tourne le cube : ce pétale devant toi.",
+  "hintPetaleDescend": "Tourne 2 fois la face avant.",
+  "hintRetournerBlancEnHaut": "Retourne le cube : la croix blanche en haut.",
+  "hintArretesAligner": "Tourne le haut pour aligner 2 arêtes.",
+  "hintFaceAreteNonAlignee": "Une arête pas alignée devant toi.",
+  "hintEscargot": "Fais l'escargot !",
+  "hintCoinCibleDevantDroite": "Tourne le cube : la place du coin à droite.",
+  "hintCoinSousSaPlace": "Tourne le bas : le coin sous sa place.",
+  "hintPetiteDanseCoinBlanc": "Fais la petite danse {count} fois.",
+  "@hintPetiteDanseCoinBlanc": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hintSortirCoinBlanc": "Coin mal placé : une petite danse le sort.",
+  "hintTournerCoinBlancEnPlace": "Petite danse jusqu'au blanc en haut.",
+  "hintRetournerBlancEnBas": "Retourne le cube : le blanc en bas.",
+  "hintFaireTAlEnvers": "Tourne le haut : fais un T à l'envers.",
+  "hintTDevant": "Tourne le cube : le T devant toi.",
+  "hintTobogganDroit": "Toboggan vers la droite !",
+  "hintTobogganGauche": "Toboggan vers la gauche !",
+  "hintAreteMalPlaceeDevantDroite": "L'arête mal rangée devant, à droite.",
+  "hintSortirArete": "Un toboggan pour la faire remonter.",
+  "hintPlacerMotifJaune": "Tourne le haut pour bien placer le jaune.",
+  "hintEtoileJaune": "Fais l'étoile jaune !",
+  "hintCoinBienPlaceEnHautADroite": "Un coin bien placé en haut à droite.",
+  "hintManege": "Fais le manège des coins !",
+  "hintAmenerCoinJaune": "Tourne seulement le haut : coin suivant à droite.",
+  "hintPetiteDanseCoinJaune": "Petite danse jusqu'au jaune en haut.",
+  "hintAlignerDernierePlace": "Tourne le haut pour finir !",
+  "learnMapTitle": "Le parcours des formules",
+  "learnLocked": "Réussis la leçon d'avant pour ouvrir celle-ci.",
+  "islandNumber": "Île {n}",
+  "@islandNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "partGoal": "Regarde",
+  "partSteps": "Pas à pas",
+  "partYourTurn": "À toi !",
+  "partChallenge": "Par cœur",
+  "partMemo": "Fiche",
+  "watch": "Regarder",
+  "watchAgain": "Revoir",
+  "before": "Avant",
+  "after": "Après",
+  "next": "Suivant",
+  "previous": "Précédent",
+  "replay": "Recommencer",
+  "slow": "Lent",
+  "fast": "Rapide",
+  "moveCounter": "Coup {n} sur {total}",
+  "@moveCounter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "repetition": "Fois {n} sur {total}",
+  "@repetition": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "stepsDone": "Bien joué, tu as tout vu !",
+  "yourTurnHelp": "Fais le mouvement de la flèche.",
+  "tryAgain": "Presque ! Essaie encore.",
+  "wellDone": "Bravo !",
+  "rotateCubeButton": "Tourner le cube",
+  "yourTurnDone": "Super, tu l'as fait tout seul !",
+  "challengeTitle": "Défi {n} sur 3",
+  "@challengeTitle": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "challengeHelp": "Réussis l'étape. Besoin d'aide ? Touche l'ampoule.",
+  "hint": "Indice",
+  "challengeSolved": "Réussi !",
+  "challengeAllDone": "Défi terminé !",
+  "challengeBroken": "Oups, le cube s'est un peu dérangé.",
+  "tryAgainButton": "On recommence",
+  "nextIsland": "Île suivante",
+  "backToMap": "Retour au parcours",
+  "memoTitle": "Ma fiche mémo",
+  "memoRules": "La règle",
+  "memoMoves": "Les mouvements",
+  "turnLeft": "Tourner à gauche",
+  "turnRight": "Tourner à droite",
+  "flipCube": "Retourner",
+  "nothingToDo": "Rien à faire ici : c'est déjà bon !",
+  "colorWhite": "blanc",
+  "colorRed": "rouge",
+  "colorGreen": "vert",
+  "colorYellow": "jaune",
+  "colorOrange": "orange",
+  "colorBlue": "bleu",
+  "faceWhite": "la face blanche",
+  "faceRed": "la face rouge",
+  "faceGreen": "la face verte",
+  "faceYellow": "la face jaune",
+  "faceOrange": "la face orange",
+  "faceBlue": "la face bleue",
+  "inputTitle": "Colorie ton cube",
+  "inputHoldU": "Centre blanc face à toi, centre bleu en haut.",
+  "inputHoldF": "Centre vert face à toi, centre blanc en haut.",
+  "inputHoldR": "Centre rouge face à toi, centre blanc en haut.",
+  "inputHoldB": "Centre bleu face à toi, centre blanc en haut.",
+  "inputHoldL": "Centre orange face à toi, centre blanc en haut.",
+  "inputHoldD": "Centre jaune face à toi, centre vert en haut.",
+  "inputFaceCounter": "Face {n} sur 6",
+  "@inputFaceCounter": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "inputPickColor": "Choisis une couleur, puis touche les cases.",
+  "inputCheck": "Vérifier",
+  "inputPrevFace": "Face d'avant",
+  "inputNextFace": "Face suivante",
+  "inputClear": "Effacer la face",
+  "inputColorCount": "{count} sur 9",
+  "@inputColorCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "inputMissing": "Il reste des cases à colorier.",
+  "errTooMany": "Oups, il y a trop de cases {color}. Vérifie !",
+  "@errTooMany": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      }
+    }
+  },
+  "errPiece": "Oups, une case semble mal coloriée. Vérifie {face} !",
+  "@errPiece": {
+    "placeholders": {
+      "face": {
+        "type": "String"
+      }
+    }
+  },
+  "errImpossible": "Hmm, vérifie bien toutes les faces, une par une.",
+  "solveReady": "C'est parti ! Je te guide coup par coup.",
+  "solveStep": "Étape {n} : {title}",
+  "@solveStep": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "solveDoneAlready": "Déjà fait, bravo !",
+  "solveIDidIt": "C'est fait",
+  "solveMistake": "Je me suis trompé",
+  "solveMistakeHelp": "Pas grave ! Colorie ton cube comme il est maintenant.",
+  "solveFinished": "Bravo, tu as résolu ton vrai cube ! 🎉",
+  "solveProgress": "Coup {n} sur {total}",
+  "@solveProgress": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "solveEditColors": "Modifier les couleurs",
+  "backHome": "Retour à l'accueil",
+  "timer": "Chrono",
+  "practiceWhichStep": "Quelle étape ?",
+  "practiceStepIs": "Tu en es à l'île {n} : {title}",
+  "@practiceStepIs": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "practiceSolvedIn": "Résolu en {time} !",
+  "@practiceSolvedIn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "practiceFlipWhiteUp": "Retourne le cube : blanc en haut.",
+  "practiceFlipYellowUp": "Retourne le cube : jaune en haut.",
+  "practiceAlreadySolved": "Le cube est déjà résolu ! Mélange-le.",
+  "settingsVoice": "Voix",
+  "settingsVoiceHelp": "Cubito lit les consignes à voix haute.",
+  "settingsSounds": "Sons",
+  "settingsSoundsHelp": "Petits sons de réussite.",
+  "settingsSpeed": "Vitesse du cube",
+  "speedSlow": "Lent",
+  "speedNormal": "Normal",
+  "speedFast": "Rapide",
+  "settingsColorBlind": "Symboles sur les couleurs",
+  "settingsColorBlindHelp": "Pour bien voir les couleurs (daltonisme).",
+  "settingsLeftHanded": "Je suis gaucher",
+  "settingsLeftHandedHelp": "Bientôt : des mouvements pour la main gauche.",
+  "settingsTryVoice": "Essayer la voix",
+  "voiceSample": "Bonjour ! Je suis Cubito. On résout le cube ensemble ?",
+  "parentArea": "Espace parent",
+  "parentQuestion": "Combien font {a} + {b} ?",
+  "@parentQuestion": {
+    "placeholders": {
+      "a": {
+        "type": "int"
+      },
+      "b": {
+        "type": "int"
+      }
+    }
+  },
+  "parentWrong": "Ce n'est pas ça. Demande à un adulte !",
+  "parentOk": "Valider",
+  "parentReset": "Remettre la progression à zéro",
+  "parentResetConfirm": "Toutes les étoiles et les trophées seront effacés.",
+  "parentResetDone": "La progression a été remise à zéro.",
+  "parentPrivacy": "Cette appli ne collecte aucune donnée. Rien n'est envoyé sur Internet. La caméra sert seulement à lire les couleurs du cube, aucune image n'est gardée.",
+  "cancel": "Annuler",
+  "trophyFirstCross": "Premiers gestes",
+  "trophyFirstCrossHelp": "Réussis la leçon 1 : les gestes de base.",
+  "trophyHalfway": "À mi-chemin",
+  "trophyHalfwayHelp": "Réussis la leçon 5.",
+  "trophyAllIslands": "Explorateur",
+  "trophyAllIslandsHelp": "Réussis les 10 leçons.",
+  "trophyAllStars": "Pluie d'étoiles",
+  "trophyAllStarsHelp": "Gagne les 30 étoiles.",
+  "trophyFirstSolve": "Premier cube",
+  "trophyFirstSolveHelp": "Résous un cube en entier.",
+  "trophyRealCube": "Le vrai cube",
+  "trophyRealCubeHelp": "Résous ton vrai cube avec Cubito.",
+  "trophyFiveSolves": "5 cubes",
+  "trophyFiveSolvesHelp": "Résous 5 cubes.",
+  "trophyUnder5": "Moins de 5 minutes",
+  "trophyUnder5Help": "Résous le cube virtuel au chrono en moins de 5 min.",
+  "trophyUnder2": "Fusée",
+  "trophyUnder2Help": "Moins de 2 minutes au chrono !",
+  "trophiesCount": "{n} trophées sur {total}",
+  "@trophiesCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "statsSolves": "Cubes résolus : {n}",
+  "@statsSolves": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "statsBest": "Meilleur temps : {time}",
+  "@statsBest": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "memoShare": "Imprimer ou partager la fiche",
+  "memoShareText": "Ma fiche mémo Cubito",
+  "solveChooseTitle": "Comment veux-tu me montrer ton cube ?",
+  "solveChooseScan": "Avec la caméra",
+  "solveChooseScanHelp": "Je regarde ton cube, face par face.",
+  "solveChooseHand": "Colorier à la main",
+  "solveChooseHandHelp": "Tu colories les cases toi-même.",
+  "scanParentTitle": "Pour les parents",
+  "scanParentText": "Pour lire les couleurs du cube, l'appli a besoin de la caméra, seulement pendant le scan. Aucune photo n'est enregistrée ni envoyée : tout reste sur le téléphone.",
+  "scanAllow": "Autoriser la caméra",
+  "scanNoCamera": "La caméra n'est pas disponible. On colorie à la main ?",
+  "scanStart": "Tiens ton cube : centre blanc face à toi, vert en haut.",
+  "scanRoll": "Fais rouler le cube vers toi : le dessus vient devant.",
+  "scanTurnLeft": "Tourne le cube vers la gauche.",
+  "scanTurnLeftTwice": "Tourne encore le cube 2 fois vers la gauche.",
+  "scanShowCenter": "Montre le centre {color}, {top} en haut.",
+  "@scanShowCenter": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      },
+      "top": {
+        "type": "String"
+      }
+    }
+  },
+  "scanTooDark": "Va près d'une lampe.",
+  "scanCloser": "Rapproche-toi.",
+  "scanHoldStill": "Ne bouge plus.",
+  "scanWrongFace": "Oups, ce n'est pas la bonne face.",
+  "scanGot": "Super !",
+  "scanVerifyTitle": "C'est bien ton cube ?",
+  "scanVerifyHelp": "Les cases qui clignotent sont peut-être fausses. Touche une case pour changer sa couleur.",
+  "scanYes": "Oui, c'est mon cube",
+  "scanFix": "Corriger à la main",
+  "scanRedoFace": "Je crois que je me suis trompé sur {face}. On la refait ?",
+  "@scanRedoFace": {
+    "placeholders": {
+      "face": {
+        "type": "String"
+      }
+    }
+  },
+  "scanRedoYes": "Refaire cette face",
+  "scanPickColor": "Choisis la bonne couleur",
+  "solveHoldStart": "Tiens ton cube : blanc en haut, vert devant toi.",
+  "onTop": "{color} en haut",
+  "@onTop": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      }
+    }
+  },
+  "inFront": "{color} devant",
+  "@inFront": {
+    "placeholders": {
+      "color": {
+        "type": "String"
+      }
+    }
+  },
+  "wholeCubeTurns": "Tout le cube tourne dans tes mains.",
+  "timesBadge": "fois {n} sur {total}",
+  "@timesBadge": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "placeTitle": "Tiens ton cube comme ça",
+  "placeCenters": "Vérifie les deux centres entourés.",
+  "placeOk": "C'est bon !",
+  "formulaLabel": "LA FORMULE",
+  "formulaSing": "Chante-la :",
+  "formulaTimes": "Ici : {n} fois",
+  "@formulaTimes": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formulaNoTurn": "Ne tourne pas le cube pendant la formule.",
+  "formulaGo": "On y va !",
+  "formulaPart": "Morceau {n} sur {total}",
+  "@formulaPart": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "formulaParts": "C'est long : on la coupe en {n} morceaux.",
+  "@formulaParts": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "formulaTimesProgress": "fois {n} sur {total}",
+  "@formulaTimesProgress": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "gestureDone": "Fait !",
+  "handRight": "main droite",
+  "handLeft": "main gauche",
+  "checkTitle": "Ton cube ressemble à ça ?",
+  "checkYes": "Oui !",
+  "checkNo": "Pas tout à fait",
+  "checkRetry": "Pas grave ! On recommence la formule.",
+  "verbUp": "MONTE",
+  "verbDown": "DESCENDS",
+  "verbLeft": "À GAUCHE",
+  "verbRight": "À DROITE",
+  "verbTurn": "TOURNE",
+  "objRightCol": "la colonne de droite",
+  "objLeftCol": "la colonne de gauche",
+  "objTopRow": "la ligne du haut",
+  "objBottomRow": "la ligne du bas",
+  "objFrontCw": "la face devant toi, comme une horloge",
+  "objFrontCcw": "la face devant toi, à l'envers",
+  "objBack": "la face de derrière",
+  "twiceSuffix": "2 fois",
+  "chantUp": "monte",
+  "chantDown": "descends",
+  "chantLeft": "à gauche",
+  "chantRight": "à droite",
+  "chantTurn": "tourne",
+  "chantTurnBack": "tourne à l'envers",
+  "yourTurnSwipe": "Glisse ton doigt sur la partie violette.",
+  "wellDoneShort": "Bravo !",
+  "goalBefore": "Avant",
+  "goalAfter": "Après",
+  "checkCompare": "Compare avec ton vrai cube.",
+  "scanNotFound": "Mets ton cube dans le carré.",
+  "scanDoGesture": "Fais le geste, puis montre la face suivante.",
+  "scanISee": "Je vois :",
+  "scanTakeNow": "Prendre cette face",
+  "scanTorchOn": "Allumer la lampe",
+  "scanTorchOff": "Éteindre la lampe",
+  "scanTooDarkTorch": "C'est sombre : allume la lampe !",
+  "solvePathTitle": "Comment veux-tu le résoudre ?",
+  "solvePathMethod": "Toute la méthode",
+  "solvePathMethodHelp": "On repart de l'étape 1 et on fait toutes les formules apprises, étape par étape.",
+  "solvePathShort": "Le plus court",
+  "solvePathShortHelp": "Le moins de gestes possible. On ne suit pas les étapes : un geste à la fois.",
+  "solvePathMoves": "{n} gestes",
+  "@solvePathMoves": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "solvePathThinking": "Je cherche le chemin le plus court…",
+  "solveShortHeader": "Chemin court · geste {n} sur {total}",
+  "@solveShortHeader": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonNumber": "Leçon {n}",
+  "@lessonNumber": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonBasicsTitle": "Les gestes de base",
+  "lessonBasicsUse": "Avant de commencer",
+  "lessonBasicsGoal": "Apprends les 10 gestes qui servent partout : monter, descendre, tourner les lignes et la face de devant.",
+  "lessonReview": "{name} (révision)",
+  "@lessonReview": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "lessonFormula": "La formule",
+  "lessonGestures": "Les gestes",
+  "memoryPrompt": "De mémoire : fais le geste suivant.",
+  "memoryHelp": "💡 Aide",
+  "memoryPerfect": "Tu la connais par cœur !",
+  "memoryAlmost": "Bravo ! Refais-la pour la savoir sans aide.",
+  "memoryAgain": "Recommencer",
+  "lessonNext": "Leçon suivante",
+  "lessonReplay": "Revoir",
+  "lessonLearned": "✅ Vue",
+  "lessonSeenCount": "{n}/{total}",
+  "@lessonSeenCount": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "lessonYouSaw": "Tu viens de voir",
+  "cubeTwistedCorner": "Un coin a été tourné à la main : ce cube ne peut plus se résoudre. Un adulte peut tourner un coin sur lui-même (un tiers de tour), puis on recommence.",
+  "cubeFlippedEdge": "Une arête a été remise à l'envers à la main : ce cube ne peut plus se résoudre. Un adulte peut retourner une arête, puis on recommence.",
+  "cubeSwappedPieces": "Deux pièces ont été échangées à la main : ce cube ne peut plus se résoudre. Un adulte peut échanger deux coins, puis on recommence.",
+  "scanRestart": "Recommencer le scan"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!-- Remplacé par --base-href au moment de « flutter build web ». -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cubito : apprendre à résoudre le Rubik's Cube, pour les enfants de 7 à 12 ans.">
+  <!-- Site à accès par code : on demande aux moteurs de recherche de ne pas l'indexer. -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#1765CC">
+
+  <!-- iPhone / iPad : ajout à l'écran d'accueil -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Cubito">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>Cubito</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    /* Écran de chargement (le temps que l'appli arrive) */
+    html, body { margin: 0; height: 100%; background: #FFF8EC; }
+    #chargement {
+      position: fixed; inset: 0; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 20px;
+      font-family: system-ui, sans-serif; color: #2B2140; font-size: 20px;
+    }
+    #chargement img { width: 128px; height: 128px; border-radius: 28px;
+      animation: rebond 1.2s ease-in-out infinite; }
+    @keyframes rebond { 50% { transform: translateY(-12px); } }
+    @media (prefers-reduced-motion: reduce) { #chargement img { animation: none; } }
+  </style>
+</head>
+<body>
+  <div id="chargement">
+    <img src="icons/Icon-192.png" alt="">
+    <div>Cubito arrive…</div>
+  </div>
+  <script>
+    // Retire l'écran de chargement dès que l'appli s'affiche.
+    window.addEventListener('flutter-first-frame', function () {
+      var e = document.getElementById('chargement');
+      if (e) e.remove();
+    });
+  </script>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
